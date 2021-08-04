@@ -9,7 +9,7 @@ from ..screenshotbot import ScreenShotBot
 async def start(c, m, cb=False):
     owner_id = Config.AUTH_USERS[0]
     username = 'Physic_Hybrid'
-    mention = '[Physic_Hybrid🇵🇹/🇦🇪]("https://t.me/Physic_hybrid")'
+    mention = '[Physic_Hybrid🇵🇹/🇦🇪](f"https://t.me/Physic_hybrid")'
     try:
         owner = await c.get_users(owner_id)
         username = owner.username if owner.username else 'Ns_AnoNymous'
